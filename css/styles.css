@@ -15,6 +15,24 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
 .list {
   list-style: none;
 }
@@ -37,7 +55,7 @@ body {
   overflow: hidden;
 }
 
-/*header*/
+/*===header===*/
 
 .logo {
   color: var(--accent-color);
@@ -80,9 +98,10 @@ body {
   color: var(--accent-color);
 }
 
-/*index-main*/
+/*===index-main===*/
 
-/*hero*/
+/*===hero===*/
+
 .hero {
   background-color: var(--background-color-dark);
 }
@@ -104,14 +123,15 @@ body {
   line-height: 1.87;
   color: var(--primary-color);
   background-color: var(--accent-color);
-  cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
   background-color: var(--focus-accent-color);
 }
-/*benifits*/
+
+/*===benifits===*/
+
 .benifits__title {
   color: var(--title-color);
   font-weight: 700;
@@ -135,7 +155,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
-/*team*/
+
+/*===team===*/
+
 .team {
   background-color: var(--background-color-light);
 }
@@ -154,7 +176,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/*Portfolio-main*/
+/*===Portfolio-main===*/
 
 .filter-button {
   font-family: inherit;
@@ -165,7 +187,6 @@ body {
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  cursor: pointer;
 }
 
 .filter-button:hover,
@@ -174,7 +195,8 @@ body {
   background-color: var(--accent-color);
 }
 
-/*projects*/
+/*===projects===*/
+
 .projects__title {
   color: var(--title-color);
   font-weight: 700;
@@ -189,7 +211,8 @@ body {
   letter-spacing: 0.03em;
 }
 
-/*footer*/
+/*===footer===*/
+
 .footer {
   background-color: var(--background-color-dark);
 }
